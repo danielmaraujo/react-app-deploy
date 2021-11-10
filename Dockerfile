@@ -1,6 +1,6 @@
 # build react app
 
-FROM node:16.11.0
+FROM node:lts-alpine as build
 
 WORKDIR /app
 
